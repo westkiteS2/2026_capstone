@@ -27,5 +27,17 @@
 
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "reset.html",
+        "reset.js",
+        "supabaseClient.js",
+        "supabase-bundle.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
